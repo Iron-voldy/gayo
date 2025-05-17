@@ -1,0 +1,55 @@
+/* src/main/webapp/css/auth.css */
+.auth-page {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-food-delivery.jpg') no-repeat center;
+    min-height: 100vh;
+}
+
+.auth-logo {
+    max-height: 80px;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-control, .input-group-text {
+    height: 45px;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+}
+
+.btn {
+    height: 45px;
+    font-weight: 500;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+.text-decoration-none {
+    transition: color 0.2s;
+}
+
+.text-decoration-none:hover {
+    color: #0d6efd !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .auth-page {
+        padding: 20px;
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+}

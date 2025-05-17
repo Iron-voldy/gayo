@@ -1,0 +1,100 @@
+/* Hero Section */
+.hero-section {
+    padding: 5rem 0;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)) ,url('../images/delivery.png') center;
+}
+
+.search-box {
+    max-width: 600px;
+}
+
+.search-box .input-group {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search-box .form-control {
+    height: 50px;
+    border-right: none;
+}
+
+.search-box .btn {
+    height: 50px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* How It Works */
+.step-card {
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.step-icon {
+    color: #ff6b6b;
+}
+
+/* Restaurant Cards */
+.restaurant-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.restaurant-card .card-footer {
+    border-top: none;
+}
+
+/* Category Cards */
+.category-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-card .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+.category-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-icon {
+    color: #ff6b6b;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    .search-box {
+        margin: 0 auto;
+    }
+
+    .hero-section img {
+        margin-top: 2rem;
+    }
+}
